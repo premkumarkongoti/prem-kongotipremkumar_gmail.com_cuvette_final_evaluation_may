@@ -207,7 +207,7 @@ function Main({userId}) {
   useEffect(() => {
     const fetchUserStories = async () => {
       try {
-        const response = await axios.get(`/api/stories/${userId}`, {
+        const response = await axios.get(`https://prem-kongotipremkumar-gmail-com-cuvette-final-evaluation-may.vercel.app/api/stories/${userId}`, {
           headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
         });
         setUserStories(response.data);
@@ -231,7 +231,7 @@ function Main({userId}) {
   const fetchUserStories = async () => {
     try {
       // Make an API request to fetch user stories
-      const response = await axios.get('/api/user-stories', {
+      const response = await axios.get('https://prem-kongotipremkumar-gmail-com-cuvette-final-evaluation-may.vercel.app/api/user-stories', {
         // Optionally pass any headers or parameters needed
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`, // Assuming you use JWT for authentication
