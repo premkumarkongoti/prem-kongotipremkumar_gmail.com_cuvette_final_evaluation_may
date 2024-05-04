@@ -41,6 +41,10 @@ app.use('/api/bookmarks', bookmarkRoutes);
 //   credentials: true,  // If you need to include credentials (cookies, headers, etc.)
 // }));
 
+app.get("/",(req,res) => {
+  res.status(200).send("hello from server");
+});
+
 app.use(bodyParser.json());
 
 app.use((req, res, next) => {
