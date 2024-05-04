@@ -20,7 +20,7 @@ const Bookmark = () => {
         if (!token) return;
         axios.defaults.headers.common["Authorization"] = token;
         const response = await axios.get(
-          "http://localhost:3000/api/v1/story/bookmarked"
+          "https://prem-kongotipremkumar-gmail-com-cuvette-final-evaluation-may.vercel.app/story/bookmarked"
         );
         setBookmarkedStories(response.data.bookmarkedStories);
         setLoading(false);
