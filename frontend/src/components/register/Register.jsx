@@ -24,7 +24,7 @@ const Register = ({onClose}) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register', {
+      const response = await axios.post('https://prem-kongotipremkumar-gmail-com-cuvette-final-evaluation-may.vercel.app/api/auth/register', {
         username,
         password,
       });
@@ -53,7 +53,7 @@ const Register = ({onClose}) => {
             </button>
         <div className={styles.loginform} >
           <h1>Register to Swip Tory</h1>
-          <form onSubmit={handleSubmit}  action="http://localhost:5000/api/auth/register" method="POST">
+          <form onSubmit={handleSubmit}  action="https://prem-kongotipremkumar-gmail-com-cuvette-final-evaluation-may.vercel.app/api/auth/register" method="POST">
             <div className={styles.formgroup}>
               <label htmlFor="username" className={styles.label}>Username:</label>
               <input
