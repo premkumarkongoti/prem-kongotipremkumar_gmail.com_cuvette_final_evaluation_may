@@ -143,7 +143,7 @@ function Story({ onClose, onSubmit }) {
     };
     try {
       // Send the story data to the backend API
-      const response = await axios.post('http://localhost:5000/api/stories', newStory);
+      const response = await axios.post('https://prem-kongotipremkumar-gmail-com-cuvette-final-evaluation-may.vercel.app/stories', newStory);
 
       console.log(response.data); // Log the response from the backend (optional)
       // Reset form fields after successful submission
