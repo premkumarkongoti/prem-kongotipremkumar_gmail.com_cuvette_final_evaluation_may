@@ -1,1 +1,21 @@
+# Ignore Node.js modules (if using Node.js)
+node_modules/
+
+# Ignore environment configuration files
 .env
+.env.local
+.env.*.local
+
+# Ignore build artifacts and temporary files
+/build/
+/dist/
+/.next/
+*.log
+*.pid
+*.pid.lock
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+*.DS_Store
