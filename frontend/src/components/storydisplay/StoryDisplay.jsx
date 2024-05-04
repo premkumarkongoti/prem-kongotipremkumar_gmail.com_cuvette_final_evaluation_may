@@ -25,7 +25,7 @@ function StoryDisplay({ story, onClose }) {
   const handleBookmark = async () => {
     try {
       // Send a request to the backend API to bookmark the story
-      const response = await axios.post('http://localhost:5000/api/bookmarks', { storyId: story._id });
+      const response = await axios.post('https://prem-kongotipremkumar-gmail-com-cuvette-final-evaluation-may.vercel.app/api/bookmarks', { storyId: story._id });
       if (response.data.success) {
         setBookmarked(true);
         toast.success('Story bookmarked successfully!');
