@@ -1,0 +1,396 @@
+
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(47, 47, 47, 0.75);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalcontainer{
+  background: #fff;
+  padding: 35px;
+
+
+  width: 624px;
+height: 482px;
+top: 199px;
+left: 349px;
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+
+}
+.loginform h1{
+  width: 312px;
+height: 33px;
+top: 313px;
+left: 534px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+.closemodal img{
+width: 30px;
+height: 30px;
+cursor: pointer;
+}
+.closemodal{
+display: flex;
+justify-content: flex-end;
+border-radius: 10px;
+background: none;
+border: none;
+}
+
+.modalhead{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 1.015px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.modalgroup{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.956px;
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.modaltext{
+  width: 375px;
+  height: 35px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.modaltext::placeholder{
+  color: #979797;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.805px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.modalcolor{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.956px;
+  padding-left: 0px;
+  padding-right: 20px;
+  position: relative;
+  bottom: 10px;
+}
+
+.colorbutton{
+cursor: pointer;
+
+}
+.colorbutton:hover{
+  transform: translate3d(0px, -2px, 0px);
+}
+
+.createbtn {
+  width: 154px;
+  height: 38px;
+  background: blue;
+  border-radius: 11px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.7px;
+  position: relative;
+  top: 10px;
+  left: 450px;
+  cursor: pointer;
+}
+
+.modalmobile{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(47, 47, 47, 0.75);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.modalcontainermobile {
+  width: 300px;
+  height: fit-content;
+  max-width: 700px;
+  max-height: 700px;
+  border-radius: 6px;
+  background: #fff;
+  padding: 35px;
+}
+.modaltextmobile{
+  width: 250px;
+  height: 35px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  color: #000;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.modaltextmobile::placeholder {
+  color: #979797;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.805px;
+}
+
+.createbtnmobile{
+  width: 154px;
+  height: 38px;
+  float: right;
+  background: #000;
+  border-radius: 11px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+.modalheadmobile{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 1.015px;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+.modalgroupmobile{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.956px;
+  padding-left: 2px;
+  padding-right: 13px;
+}
+
+.modaltextmobile{
+  width:150px;
+  height: 23px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.modaltextmobile::placeholder{
+  color: #979797;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.805px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.modalcolormobile{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.956px;
+  padding-left: 3px;
+  padding-right: 10px;
+  position: relative;
+  bottom: 10px;
+}
+.colorbuttonmobile{
+  cursor: pointer;
+}
+.colorbutton:hover{
+  transform: translate3d(0px, -2px, 0px);
+}
+
+.modalcreatemobile{
+
+  
+  background: blue;
+  border-radius: 11px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.7px;
+
+  margin-right: 55px;
+  cursor: pointer;
+  width: 186px;
+  height: 32px;
+  top: 400px;
+  left: 80px;
+
+  border-radius: 6px;
+
+}
+
+
+
+.slide {
+  margin-bottom: 20px;
+  padding: 1rem 0.85rem;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19.53px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* Styles for mobile view */
+
+@media (max-width: 600px) {
+  .modalcontainer {
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modalcontainermobile {
+    width: 90%;
+    max-width: 100%;
+    max-height: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .closemodal {
+    top: 10px;
+    right: 10px;
+  }
+
+  .modalhead {
+    font-size: 20px;
+  }
+
+  .modalgroup {
+    font-size: 16px;
+  }
+
+  .modaltext,
+  .modaltextmobile {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  .colorbutton,
+  .colorbuttonmobile {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .createbtnmobile,
+  .modalcreatemobile {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .modalcolormobile {
+    bottom: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,329 @@
+/* Main.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 10vh;
+
+  }
+  .image{
+    width: 219px;
+    height: 219px;
+    border-radius: 40px;
+    
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .stories span{
+    margin-left: 34rem;
+  }
+
+  .register,
+  .signin {
+    margin-left: 10px;
+  }
+  .App{
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+    overflow: hidden;
+    
+  }
+
+  .register{
+   background-color: #FF7373;
+   height: 50px;
+   border: none;
+   border-radius: 20px;
+   width: 150px;
+   color: white;
+   font-family: sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 23.44px;
+   text-align: center;
+   cursor: pointer;
+
+  }
+  .signin{
+    background-color: #73ABFF;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+    cursor: pointer;
+
+    
+  }
+ .categories img{
+    height: 230px;
+    padding: 10px;
+    
+
+ }
+ .categories{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+ }
+ .stories h1{
+  margin-left: 33rem;
+  
+ }
+ .stories1{
+    height: 463px;
+    top: 468px;
+    left: 43px;
+    gap: 55px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.06px;
+    text-align: center;
+    color: #8E8E8E;
+    border-radius: 10px;
+    /* background-color: black; */
+
+ }
+ .overlayText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 39.06px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom:90px ;
+
+  }
+
+
+
+
+  /* ImageGallery.module.css */
+
+/* 
+  
+  .imageContainer {
+    position: relative;
+  }
+  
+  .image {
+    
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .overlayText {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    right: 50%;
+
+    
+    padding: 8px;
+    text-align: center;
+
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+  .storyCard{
+    width: 500px;
+    height: 400px;
+    background-color: #FF7373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .storyImage{
+    width: 500px;
+    height: 50px;
+  }
+  .storyhead{
+    z-index: 9999;
+  } */
+
+  /* Add these styles to your CSS file (e.g., Addstories.module.css) */
+
+.stories {
+  /* Your styles for the parent div */
+}
+
+.stories1 {
+  display: flex;
+  flex-wrap: wrap;
+  /* Your styles for the stories container */
+}
+
+.storyCard {
+  width: 20%;
+  
+  /* Your styles for each story card */
+  /* width: 500px;
+    height: 400px; */
+
+    
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    background-color: white;
+    bottom: 0%;
+    border-radius: 10px;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  /* Your styles for the image container */
+  border-radius: 10px;
+}
+
+.storyImage {
+  width: 100%;
+  height: auto;
+
+  /* Your styles for the image */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  
+  
+   /* Semi-transparent overlay */
+  color: #fff; /* Text color on the overlay */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+   /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.overlay:hover {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.overlay h3,
+.overlay p {
+  margin: 5px;
+  /* Your styles for heading and paragraph on the overlay */
+}
+
+
+
+
+/* Main.module.css */
+/* .stories1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  height: 400px;
+
+} */
+
+.stories1.expanded {
+  /* Increase height when expanded */
+  height: 900px;
+  /* Additional styling */
+}
+
+
+.dropdown{
+  position: fixed;
+  
+    right: 0;
+    top: 5rem;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 3vw;
+    gap: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    height: 120px;
+    flex-direction: column;
+  
+  
+  }
+
+    .logout {
+      all: unset;
+      color: white;
+      text-align: center;
+      font-weight: 500;
+      background-color:red;
+      padding: 0.5rem 0.8rem;
+      border-radius: 17px;
+      width: 8rem;
+      &:hover {
+        cursor: pointer;
+        filter: brightness(1.09);
+      }
+    }
+  
+
+.bookmarks{
+  background-color: #FF7373;
+   height: 50px;
+   border: none;
+   border-radius: 20px;
+   width: 150px;
+   color: white;
+   font-family: sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 23.44px;
+   text-align: center;
+   cursor: pointer;
+}
+.addStory {
+  background-color: #73ABFF;;
+   height: 50px;
+   border: none;
+   border-radius: 20px;
+   width: 150px;
+   color: white;
+   font-family: sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 23.44px;
+   text-align: center;
+   cursor: pointer;
+}
+.user{
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+  
